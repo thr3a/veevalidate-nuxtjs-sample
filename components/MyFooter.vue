@@ -3,6 +3,8 @@
     <br>
     <br>
     <hr>
-    <a href="/">一覧に戻る</a>
+    <nuxt-link to="/">
+      一覧に戻る
+    </nuxt-link>
   </div>
 </template>
