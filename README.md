@@ -1,20 +1,9 @@
-# veevalidate-nuxtjs-sample
+# VeeValidate サンプルコード集
 
-## Build Setup
+https://thr3a.github.io/veevalidate-nuxtjs-sample/
 
-```bash
-# install dependencies
-$ yarn install
+# 環境
 
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+- Nuxt.js v2.x
+- Vuejs v2.x
+- VeeValidate v3
