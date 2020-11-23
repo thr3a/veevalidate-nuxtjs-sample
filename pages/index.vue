@@ -1,29 +1,24 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        veevalidate-nuxtjs-sample
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div>
+    <h1>vee-validate サンプルコード集</h1>
+    <ul>
+      <a href="/basic">基本</a>
+    </ul>
+    <ul>
+      <a href="/custom_validate">カスタムバリデーション</a>
+    </ul>
+    <ul>
+      <a href="/form_submit">全てのバリデーションが通るまで送信ボタンを無効化する</a>
+    </ul>
+    <ul>
+      <a href="/form_submit2">フォーム送信ボタンクリック時にバリデーションを実行</a>
+    </ul>
+    <ul>
+      <a href="/first_validate">ページ表示時に最初からバリデーションを実行</a>
+    </ul>
+    <ul>
+      <a href="/errors">Javascript内でバリデーションを操作</a>
+    </ul>
   </div>
 </template>
 
@@ -32,42 +27,4 @@ export default {}
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>

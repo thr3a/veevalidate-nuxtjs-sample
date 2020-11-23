@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>
-      basic
+      基本
     </h1>
     <ValidationObserver ref="myform">
       <validation-provider v-slot="{ errors }" rules="email|required">
