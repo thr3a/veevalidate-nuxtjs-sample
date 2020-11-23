@@ -44,6 +44,6 @@ export default {
     ]
   },
   router: {
-    base: process.env.NODE_ENV === 'production' ? '/veevalidate-nuxtjs-sample/' : '/'
+    base: '/veevalidate-nuxtjs-sample/'
   }
 }
