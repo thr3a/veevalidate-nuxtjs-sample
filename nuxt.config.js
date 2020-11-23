@@ -42,5 +42,8 @@ export default {
     transpile: [
       'vee-validate/dist/rules'
     ]
+  },
+  router: {
+    base: process.env.NODE_ENV === 'production' ? '/veevalidate-nuxtjs-sample/' : '/'
   }
 }
