@@ -2,7 +2,9 @@
   <div>
     <h1>vee-validate サンプルコード集</h1>
     <ul>
-      <a href="/basic">基本</a>
+      <nuxt-link to="/basic">
+        基本
+      </nuxt-link>
     </ul>
     <ul>
       <a href="/locale">日本語化</a>
