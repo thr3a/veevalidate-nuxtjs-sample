@@ -12,6 +12,7 @@
     "deploy": "NODE_ENV=production nuxt generate && push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
+    "bootstrap-vue": "^2.19.0",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
     "push-dir": "^0.4.1",

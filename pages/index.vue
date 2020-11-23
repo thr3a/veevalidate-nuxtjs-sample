@@ -36,6 +36,11 @@
         Javascript内でバリデーションを操作
       </nuxt-link>
     </ul>
+    <ul>
+      <nuxt-link to="/bootstrap">
+        Bootstrapで使ってみる
+      </nuxt-link>
+    </ul>
   </div>
 </template>
 
