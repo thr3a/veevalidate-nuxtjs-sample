@@ -5,6 +5,9 @@
       <a href="/basic">基本</a>
     </ul>
     <ul>
+      <a href="/locale">日本語化</a>
+    </ul>
+    <ul>
       <a href="/custom_validate">カスタムバリデーション</a>
     </ul>
     <ul>
